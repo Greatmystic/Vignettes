@@ -1,5 +1,17 @@
-const gifs = [  {    file: "images/wondering.gif",    audio: "sounds/wondering.mp3"  },  {    file: "images/fancya3by3.gif",    audio: "sounds/fancy-a-3-by-3.mp3"  },  {    file: "images/Locrian-Oompa.gif",    audio: "sounds/Locrian-Oompa.mp3"  }];
-
+const gifs = [
+  {
+    file: "https://cdn.discordapp.com/attachments/428327863608147970/1094794239512150147/wondering.gif",
+    audio: "sounds/wondering.mp3"
+  },
+  {
+    file: "images/fancya3by3.gif",
+    audio: "sounds/fancy-a-3-by-3.mp3"
+  },
+  {
+    file: "https://cdn.discordapp.com/attachments/428327863608147970/1094713195152805939/Locrian-Oompa.gif",
+    audio: "sounds/Locrian-Oompa.mp3"
+  }
+];
 let currentIndex = 0;
 let audio;
 
